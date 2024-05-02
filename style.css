@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.contaienr {
+padding-left: 80px;
+padding-right: 80px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.nav {
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+    
+}
+
+.links {
+    display: flex;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+.donate a{
+    color: #ffffff;
+    background-color: #00a6ff;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.hero {
+    box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(132, 131, 131, 0.6);
+    background-color: #E1F7FF;
+    color: #3274CC;
+    height: 50vh;
+    padding-top: 90px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.btn-1{
+    text-decoration: none;
+    color: white;
+    background-color: #3274CC;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.btn-2{
+    text-decoration: none;
+    color: #3274CC;
+    border: solid 2px #3274CC;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
