@@ -6,8 +6,9 @@
 }
 
 .contaienr {
-padding-left: 80px;
-padding-right: 80px;
+    margin: 0;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .logo {
@@ -42,12 +43,12 @@ padding-right: 80px;
     box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(132, 131, 131, 0.6);
     background-color: #E1F7FF;
     color: #3274CC;
-    height: 50vh;
+    height: 70vh;
     padding-top: 90px;
 }
 
 .mt-10{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .mt-20{
@@ -68,4 +69,30 @@ padding-right: 80px;
     border: solid 2px #3274CC;
     padding: 10px 20px;
     border-radius: 30px;
+}
+
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.content-1{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+
+.content-web {
+    margin-top: 100px;
+}
+
+.descrption {
+        text-decoration: none;
+        color: white;
+        background-color: #3274CC;
+        padding: 10px 20px;
+        border-radius: 30px;
 }
