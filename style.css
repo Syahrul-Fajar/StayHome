@@ -3,9 +3,10 @@
 *{
     margin: 0px;
     font-family: "Poppins", sans-serif;
+    
 }
 
-.contaienr {
+.container {
     margin: 0;
     padding-left: 80px;
     padding-right: 80px;
@@ -19,7 +20,6 @@
     display: flex;
     align-items:  center;
     justify-content: space-between;
-    
 }
 
 .links {
@@ -40,11 +40,11 @@
 }
 
 .hero {
-    box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(132, 131, 131, 0.6);
     background-color: #E1F7FF;
     color: #3274CC;
-    height: 70vh;
+    height: 60vh;
     padding-top: 90px;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.25);
 }
 
 .mt-10{
@@ -87,6 +87,7 @@
 
 .content-web {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .descrption {
@@ -95,4 +96,57 @@
         background-color: #3274CC;
         padding: 10px 20px;
         border-radius: 30px;
+    }
+
+.content-2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.center {
+    text-align: center;
+    padding-block: 30px;
+}
+
+.content-2 h1 { 
+    margin: 0;
+    font-size: medium;
+    text-align: center;
+    }
+
+.content-2 p {
+    width: 200px;
+    height: 90px;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+    padding-block: 20px;
+}
+
+.content-2 img {
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.card-1 {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-2 {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-3 {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.footer-web {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
